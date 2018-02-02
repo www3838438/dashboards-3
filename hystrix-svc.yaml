@@ -8,7 +8,7 @@ spec:
   type: LoadBalancer
   ports:
   - name: dashboard-hystrix
-    port: 80 
+    port: 7979 
     targetPort: 7979
   selector:
     app: dashboard-hystrix 
